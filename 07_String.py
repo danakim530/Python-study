@@ -40,4 +40,27 @@ print(my_name[5:9])
 print(my_name[:3])  # 생략은 전체를 의미
 print(my_name[4:])
 
-# string.split()
+# string.split() (띄어쓰기 단위로 잘라주는 string에 쓸 수 있는 함수, 외우지 말고 이런게 있구나~ 찾아봐서 쓸 수 있게)_________________________________
+print(my_name.split())
+fruit_str = '거봉 수박 포도 복숭아 망고 딸기 배 참외'
+fruits = fruit_str.split()
+print(fruits)
+
+# 특정 문자 기준으로 자를 수도 있음
+a = 'Life is : too : short'
+print(a.split(':'))
+
+# Docstring (큰, 작은 따옴표 세개로 주석할 수 있음. 프로그램 실행에 영향을 안 미침. 나중에 함수 설명할 때 주석으로 씀)
+'''이것도 주석입니다'''
+
+
+# print 옵션(end, 출력의 끝을 지정)____________________________________________
+print('집단지성')  # 맨 뒤에 엔터가 기본으로 들어감
+print('집단지성', end='')  # 맨 뒤의 엔터 제거
+print('집단지성', end='/hello')  # 출력의 끝에 이어서 입력됨
+
+# Escape Code(\n: 엔터, \t : 탭) 백슬래쉬!! ____________________________
+print('미운코딩새끼의\n집단지성')
+print('미운코딩새끼의\t집단지성')
+print('미운', end='\t')  # 맨 뒤에 탭 넣기
+print('코딩')
