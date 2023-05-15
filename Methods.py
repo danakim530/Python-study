@@ -20,5 +20,6 @@ result = ' '.join(words)
 print(result)
 
 # 문자열 합치기 append()
+word
 
 # if, if not
