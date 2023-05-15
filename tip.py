@@ -20,6 +20,10 @@ result = ' '.join(words)
 print(result)
 
 # 문자열 합치기 append()
-word
 
 # if, if not
+
+# 문자열 안에 특정 문자열 있는지 확인
+# if str1 in str2 / not in도 가능!
+
+#  return 1 if str1 in str2 else 0 이런 순서로도 가능!
