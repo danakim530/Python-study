@@ -1,5 +1,6 @@
 # immutable 값을 변경 X (문자열)
 # mutable 값을 변경 O (리스트)
+# C나 자바는 Array, 파이썬은 List
 
 my_list = []  # 빈 리스트
 print(my_list)
