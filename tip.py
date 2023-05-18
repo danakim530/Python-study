@@ -31,3 +31,6 @@ print(result)
 # if str1 in str2 / not in도 가능!
 
 #  return 1 if str1 in str2 else 0 이런 순서로도 가능!
+
+# 리스트 맨 뒤에서부터 볼 때 indexing
+# my_list[-1] 맨 뒤에꺼 / my_list[-2] 맨 뒤에서 두번째꺼 
