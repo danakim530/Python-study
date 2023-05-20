@@ -13,7 +13,7 @@ str.lower()  # 소문자로
 # 두 정수 중 큰 수 뱉기
 max(A, B)
 
-# 더하기
+# 더하기(곱하기는 내장함수 없음)
 sum(a, b)
 
 # 길이 len()
@@ -32,5 +32,7 @@ print(result)
 
 #  return 1 if str1 in str2 else 0 이런 순서로도 가능!
 
-# 리스트 맨 뒤에서부터 볼 때 indexing
-# my_list[-1] 맨 뒤에꺼 / my_list[-2] 맨 뒤에서 두번째꺼 
+# range(10,1,-1) 10부터 1까지 -1되는 수 차례로 10,9,8,7,,,
+
+# for i in arr // arr배열에 있는 원소들 직접
+# for i in range(0,len(arr)): arr[i] 어쩌구 안해도 됨.
