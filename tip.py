@@ -38,5 +38,7 @@ print(result)
 # for i in range(0,len(arr)): arr[i] 어쩌구 안해도 됨.
 
 # 정렬: 오름차순, 내림차순, 가나다순 등..
-list.sort() #리스트 자체를 정렬
-new_list= list.sorted() #새롭게 정렬된 리스트 자체를 반환 
+list.sort()  # 리스트 자체를 정렬
+new_list = list.sorted()  # 새롭게 정렬된 리스트 자체를 반환
+
+#
