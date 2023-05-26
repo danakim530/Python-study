@@ -41,4 +41,6 @@ print(result)
 list.sort()  # 리스트 자체를 정렬
 new_list = list.sorted()  # 새롭게 정렬된 리스트 자체를 반환
 
-#python tip 
+# 문자열 삭제
+test = 'apple is red'
+print(test.replace('red', ''))
