@@ -47,4 +47,6 @@ print(test.replace('red', ''))
 
 # 동일한 간격의 리스트 출력 
 # 리스트[시작:끝:간격]
+# range(0,len(my_list),3)와 비슷
 return my_list[::3] # 스텝3만큼 간격 두고 출력
+
