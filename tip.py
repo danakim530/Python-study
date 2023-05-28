@@ -44,3 +44,7 @@ new_list = list.sorted()  # 새롭게 정렬된 리스트 자체를 반환
 # 문자열 삭제
 test = 'apple is red'
 print(test.replace('red', ''))
+
+# 동일한 간격의 리스트 출력 
+# 리스트[시작:끝:간격]
+return my_list[::3] # 스텝3만큼 간격 두고 출력
